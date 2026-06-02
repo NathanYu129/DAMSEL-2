@@ -1,0 +1,71 @@
+These are the models and parameters used for testing in our paper.
+
+All models were imported from sklearn library in python.
+Unless otherwise noted, the model uses the default parameters provided in the sklearn documentation 
+https://scikit-learn.org/stable/api/index.html
+All of this is also included inside of the code itself.
+
+Models used:
+Support vector machine (SVM)
+https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+parameters:
+kernel = 'linear'
+C = 1
+
+Random forest
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+parameters: default
+
+K nearest neighbors
+https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
+parameters:
+neighbors = 3
+
+Multi layer perceptron (MLP)
+https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html
+parameters:
+random_state = 1
+max_iter = 300
+
+Stochastic gradient descent
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html
+parameters:
+loss = 'hinge'
+
+Decision tree
+https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
+parameters: default
+
+Linear discriminant analysis
+https://scikit-learn.org/stable/modules/generated/sklearn.discriminant_analysis.LinearDiscriminantAnalysis.html
+parameters:
+solver = svd
+
+Quadratic discriminant analysis
+https://scikit-learn.org/stable/modules/generated/sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.html
+parameters:
+solver = svd
+
+Gaussian process classifier
+https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessClassifier.html
+parameters: default
+
+Multinomial naive Bayes
+https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html
+parameters: default
+
+Gradient boosting classifier
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html
+parameters: default
+
+Logistic regression
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+parameters: default
+
+
+These are the parameters used for loess smoothing in our paper
+https://pypi.org/project/loess/
+parameters:
+degree = 1
+subpackage used was loess_1d
+
